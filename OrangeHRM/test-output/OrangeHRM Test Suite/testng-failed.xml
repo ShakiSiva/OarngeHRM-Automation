@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Login Test case(failed)" verbose="2">
+    <classes>
+      <class name="testCases.Test_Login">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Test_Login -->
+    </classes>
+  </test> <!-- Login Test case(failed) -->
+  <test thread-count="5" name="Leave on Today Test case(failed)" verbose="2">
+    <classes>
+      <class name="testCases.Test_Leave_OnToday">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyLeaveOnToday"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Test_Leave_OnToday -->
+    </classes>
+  </test> <!-- Leave on Today Test case(failed) -->
+  <test thread-count="5" name="Check User Role Test case(failed)" verbose="2">
+    <classes>
+      <class name="testCases.Test_User_Role">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="checkUserRole"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Test_User_Role -->
+    </classes>
+  </test> <!-- Check User Role Test case(failed) -->
+  <test thread-count="5" name="Add Job Titels Test case(failed)" verbose="2">
+    <classes>
+      <class name="testCases.Test_Add_Job_Titles">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="addJobTitles"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Test_Add_Job_Titles -->
+    </classes>
+  </test> <!-- Add Job Titels Test case(failed) -->
+  <test thread-count="5" name="Logout Test case(failed)" verbose="2">
+    <classes>
+      <class name="testCases.Test_Logout">
+        <methods>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Test_Logout -->
+    </classes>
+  </test> <!-- Logout Test case(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->

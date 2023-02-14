@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Test Suite" verbose="2">
+
+	<test name="Login Test case">
+		<classes>
+			<class name="testCases.Test_Login">
+
+			</class>
+		</classes>
+	</test>
+
+	<test name="Leave on Today Test case">
+		<classes>
+			<class name="testCases.Test_Leave_OnToday">
+
+			</class>
+		</classes>
+	</test>
+
+	<test name="Check User Role Test case">
+		<classes>
+			<class name="testCases.Test_User_Role">
+
+			</class>
+		</classes>
+	</test>
+
+	<test name="Add Job Titels Test case">
+		<classes>
+			<class name="testCases.Test_Add_Job_Titles">
+
+			</class>
+		</classes>
+	</test>
+
+	<test name="Logout Test case">
+		<classes>
+			<class name="testCases.Test_Logout">
+
+			</class>
+		</classes>
+	</test>
+
+</suite>
